@@ -1,0 +1,19 @@
+{
+  "name": "aws-express-serverless-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "local.js",
+  "dependencies": {
+    "aws-serverless-express": "^3.3.8",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "serverless": "^1.67.3"
+  },
+  "scripts": {
+    "start": "node local.js",
+    "deploy": "serverless deploy"
+  },
+  "author": "",
+  "license": "ISC"
+}
